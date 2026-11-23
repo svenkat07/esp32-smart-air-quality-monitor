@@ -48,6 +48,7 @@ and a disconnected-temperature-sensor scenario represented by JSON `null`.
 
 ## Visual documentation
 
+- [Recruiter project guide](docs/recruiter-guide.md): key source files, design decisions, test instructions and validation boundaries.
 - [System architecture diagram](docs/architecture.md): proposed sensor-to-firmware-to-MQTT data flow.
 - [Firmware monitoring flowcharts](docs/firmware-flow.md): state transitions, alert hysteresis, fault handling and network task.
 

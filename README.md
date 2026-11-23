@@ -8,6 +8,12 @@ provided as a hardware integration draft and has not been compiled or tested on 
 No physical sensor measurements, cloud deployment, calibration or performance claims
 are presented. All readings in `examples/` are explicitly simulated.
 
+## Hardware concept illustration
+
+![AI-generated ESP32 hardware concept](docs/ESP32%20Air%20Quality%20Monitor%20Workspace.png)
+
+*AI-generated concept illustration, not a photograph of a built or tested device. Display and laptop readings are illustrative only. Physical validation is pending.*
+
 ## What it demonstrates
 
 C++ stateful monitoring logic shared by a host simulator and ESP32 firmware,

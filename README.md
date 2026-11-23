@@ -39,6 +39,14 @@ at 2-second logical intervals; the simulator runs them immediately, not in real 
 The scenario contains a gas-voltage excursion, a temperature excursion, recovery,
 and a disconnected-temperature-sensor scenario represented by JSON `null`.
 
+
+## Visual documentation
+
+- [System architecture diagram](docs/architecture.md): proposed sensor-to-firmware-to-MQTT data flow.
+- [Firmware monitoring flowcharts](docs/firmware-flow.md): state transitions, alert hysteresis, fault handling and network task.
+
+Both diagrams describe software and planned hardware integration. They are **not** photographs or evidence of physical testing.
+
 ## Architecture
 
 `sensorTask` owns DHT/ADC and monitoring state, drives the indicator, then overwrites

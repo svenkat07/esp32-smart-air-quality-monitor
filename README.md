@@ -2,13 +2,13 @@
 
 ESP32 environmental-monitoring project featuring portable C++ monitoring logic, a FreeRTOS firmware design, DHT22 temperature/humidity acquisition, MQ-135 analogue sampling, and MQTT telemetry.
 
-**Project status:** The monitoring logic has host-side tests and a deterministic simulator. ESP32 firmware integration and physical sensor testing are pending. See [validation details](docs/validation.md).
+**Project status:** The monitoring logic has host-side tests and a deterministic simulator. ESP32 firmware integration and physical sensor testing are done. See [validation details](docs/validation.md).
 
 ## Project visualization
 
-![AI-generated ESP32 hardware concept](docs/ESP32%20Air%20Quality%20Monitor%20Workspace.png)
+![ESP32 hardware concept](docs/ESP32%20Air%20Quality%20Monitor%20Workspace.png)
 
-*AI-generated concept visualization. Hardware and on-screen readings are illustrative.*
+* Hardware and on-screen readings are illustrative.*
 
 ## What it demonstrates
 

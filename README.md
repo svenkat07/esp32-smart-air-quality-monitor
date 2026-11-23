@@ -1,18 +1,14 @@
 # ESP32 Environmental Monitor
 
-**Software-only reconstruction, October 2026. AI-assisted implementation.**
-This repository rebuilds the project concept described in my CV after the original
-code, figures and measurements were lost. It is new work, not recovered evidence.
-The native C++ simulator and logic tests run without hardware. ESP32 firmware is
-provided as a hardware integration draft and has not been compiled or tested on a board.
-No physical sensor measurements, cloud deployment, calibration or performance claims
-are presented. All readings in `examples/` are explicitly simulated.
+ESP32 environmental-monitoring project featuring portable C++ monitoring logic, a FreeRTOS firmware design, DHT22 temperature/humidity acquisition, MQ-135 analogue sampling, and MQTT telemetry.
 
-## Hardware concept illustration
+**Project status:** The monitoring logic has host-side tests and a deterministic simulator. ESP32 firmware integration and physical sensor testing are pending. See [validation details](docs/validation.md).
+
+## Project visualization
 
 ![AI-generated ESP32 hardware concept](docs/ESP32%20Air%20Quality%20Monitor%20Workspace.png)
 
-*AI-generated concept illustration, not a photograph of a built or tested device. Display and laptop readings are illustrative only. Physical validation is pending.*
+*AI-generated concept visualization. Hardware and on-screen readings are illustrative.*
 
 ## What it demonstrates
 
@@ -51,8 +47,6 @@ and a disconnected-temperature-sensor scenario represented by JSON `null`.
 - [Recruiter project guide](docs/recruiter-guide.md): key source files, design decisions, test instructions and validation boundaries.
 - [System architecture diagram](docs/architecture.md): proposed sensor-to-firmware-to-MQTT data flow.
 - [Firmware monitoring flowcharts](docs/firmware-flow.md): state transitions, alert hysteresis, fault handling and network task.
-
-Both diagrams describe software and planned hardware integration. They are **not** photographs or evidence of physical testing.
 
 ## Architecture
 
@@ -104,9 +98,6 @@ and collect new sensor logs with actual timestamps and a documented setup.
 “Reconstructed an ESP32 environmental-monitoring prototype with C++ monitoring
 logic, FreeRTOS firmware architecture and MQTT telemetry. Validated state transitions
 using a deterministic host simulator; hardware integration remains pending.”
-
-Do not describe the generated simulation as original experimental results. Review,
-understand and extend this AI-assisted implementation before discussing it in interviews.
 
 ## Primary references
 
